@@ -9,7 +9,6 @@ Projeto de portfólio de **Quality Assurance**: testes automatizados end-to-end 
 - Automação de fluxos reais: login, lista de produtos, carrinho e checkout
 - Cenários positivos e negativos (campos vazios, usuário bloqueado, acesso sem login)
 - Validações de regra de negócio (ordenação, contador do carrinho, soma do subtotal)
-- Reaproveitamento de código com comandos customizados e `cy.session`
 - Integração contínua com **GitHub Actions**
 - Documentação de QA: plano de testes, casos de teste, relatório de execução e bug report
 
