@@ -19,8 +19,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: Instalar dependências
+        run: npm install
+
       - name: Rodar testes Cypress
-        uses: cypress-io/github-action@v6
+        run: npx cypress run
 
       - name: Salvar capturas de tela se algum teste falhar
         if: failure()
