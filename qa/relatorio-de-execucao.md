@@ -12,16 +12,14 @@
 
 | Total | ✅ Passou | ❌ Falhou | ⬜ Não executado |
 |---|---|---|---|
-| 29 | 23 | 0 | 6 |
+| 29 | 23 | 1 | 5 |
 
 **Automação:** 23 de 23 testes passaram.
-**Taxa de aprovação geral:** 79% (23 de 29). Os 6 casos restantes são exploratórios manuais, ainda não executados.
+**Taxa de aprovação geral:** 79% (23 de 29). 1 caso falhou. Os 5 casos restantes são exploratórios manuais, ainda não executados.
 
 ## Falhas e bugs
 
-Nenhum bug do sistema foi registrado neste ciclo.
-
-Observação: na primeira execução do pipeline, 4 testes falharam por um defeito no próprio código de teste (uso de `cy.session` no comando de login), e não por falha do SauceDemo. O comando foi simplificado e a suíte passou a executar com sucesso.
+[BUG-001](bugs/BUG-001.md)
 
 ## Conclusão
 
