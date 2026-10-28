@@ -1,20 +1,16 @@
-# BUG-001 — [RASCUNHO] Usuário `problem_user` vê a mesma imagem em todos os produtos
-
-> ⚠️ **Rascunho para você confirmar.** O SauceDemo possui comportamentos defeituosos de propósito para o usuário `problem_user`.
-> Execute o caso **CT-E01**, confirme o que acontece e complete a seção de evidências antes de publicar.
-> Se o comportamento for diferente do descrito, ajuste o texto.
+# BUG-001 — Usuário `problem_user` vê a mesma imagem em todos os produtos
 
 | Campo | Valor |
 |---|---|
 | **ID** | BUG-001 |
 | **Status** | Aberto |
 | **Severidade** | Média |
-| **Encontrado em** | __/__/____ |
+| **Encontrado em** | 28/10/2026 |
 | **Caso de teste relacionado** | CT-E01 |
-| **Ambiente** | _SO, navegador e versão_ |
+| **Ambiente** | [Sistema operacional], Microsoft Edge [versão], desktop |
 
 ## Descrição
-Ao entrar com `problem_user`, a lista de produtos não exibe a imagem correta de cada item.
+Ao entrar com `problem_user`, a lista de produtos exibe a mesma imagem (a foto de um cachorro) em todos os itens, em vez da imagem própria de cada produto.
 
 ## Passos para reproduzir
 1. Acesse https://www.saucedemo.com
@@ -22,13 +18,19 @@ Ao entrar com `problem_user`, a lista de produtos não exibe a imagem correta de
 3. Observe as imagens da lista de produtos
 
 ## Resultado esperado
-Cada produto exibe a sua própria imagem.
+Cada produto exibe a sua própria imagem (por exemplo, mochila para o Sauce Labs Backpack e luz de bicicleta para o Sauce Labs Bike Light).
 
 ## Resultado obtido
-_Descreva o que você observou (ex.: todas as imagens são iguais)._
+Todos os produtos exibem a mesma imagem de um cachorro com uma bola de tênis na boca. Os nomes, as descrições e os preços continuam corretos.
 
 ## Evidências
-_Anexar captura de tela._
+Com `problem_user`:
+
+![Lista de produtos com problem_user](evidencias/bug-001-problem-user.png)
+
+Com `standard_user`, para comparação:
+
+![Lista de produtos com standard_user](evidencias/bug-001-standard-user.png)
 
 ## Observações
-Comparar com o comportamento de `standard_user`.
+Com `standard_user`, cada produto exibe a imagem correta. O problema ocorreu em todos os produtos exibidos na lista. Impacto: a pessoa não consegue identificar o produto visualmente, o que prejudica a decisão de compra.
