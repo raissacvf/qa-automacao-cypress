@@ -24,11 +24,13 @@ Cada produto exibe a sua própria imagem (por exemplo, mochila para o Sauce Labs
 Todos os produtos exibem a mesma imagem de um cachorro com uma bola de tênis na boca. Os nomes, as descrições e os preços continuam corretos.
 
 ## Evidências
-Com `problem_user`:
+Com `problem_user`:<img width="1535" height="810" alt="image" src="https://github.com/user-attachments/assets/db09c86f-d0a5-4dba-99f7-8ca4d1867927" />
+
 
 ![Lista de produtos com problem_user](evidencias/bug-001-problem-user.png)
 
-Com `standard_user`, para comparação:
+Com `standard_user`, para comparação: <img width="1486" height="811" alt="image" src="https://github.com/user-attachments/assets/b6171951-e6c2-4fb2-8cd8-90fcad146a43" />
+
 
 ![Lista de produtos com standard_user](evidencias/bug-001-standard-user.png)
 
