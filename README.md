@@ -61,5 +61,6 @@ Cypress · JavaScript · GitHub Actions · Markdown
 - [Bugs](qa/bugs)
 
 ---
+Escolhi o Cypress por já estudar JavaScript e quis entender, na prática, como validar funcionalidades, identificar falhas e garantir que o sistema se comporte como esperado. Organizar os testes por funcionalidade, trabalhar com cenários positivos e negativos e utilizar assertions me ajudou a desenvolver um olhar mais crítico sobre a qualidade do software. Também estou aprendendo sobre sessões, integração contínua e a importância da documentação. Sei que ainda tenho muito a evoluir, mas acredito que construir projetos reais e compartilhar meu aprendizado é uma das melhores formas de crescer na área.
 
 Feito por [Raíssa de Castro](https://github.com/raissacvf) · [LinkedIn](https://www.linkedin.com/in/raissacvf)
