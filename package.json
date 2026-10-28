@@ -1,0 +1,13 @@
+{
+  "name": "qa-automacao-cypress",
+  "version": "1.0.0",
+  "description": "Portfólio de QA: testes E2E com Cypress e documentação de testes no site SauceDemo",
+  "private": true,
+  "scripts": {
+    "cy:open": "cypress open",
+    "test": "cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^13.17.0"
+  }
+}
