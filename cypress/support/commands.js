@@ -14,13 +14,10 @@ Cypress.Commands.add("preencherLogin", (usuario, senha) => {
   cy.get('[data-test="login-button"]').click();
 });
 
-/** Faz login com sessão em cache (mais rápido) e abre a lista de produtos. */
+/** Faz login pela tela e confirma que a lista de produtos foi aberta. */
 Cypress.Commands.add("login", (usuario = USUARIOS.padrao, senha = SENHA) => {
-  cy.session([usuario, senha], () => {
-    cy.preencherLogin(usuario, senha);
-    cy.url().should("include", "/inventory.html");
-  });
-  cy.visit("/inventory.html");
+  cy.preencherLogin(usuario, senha);
+  cy.url().should("include", "/inventory.html");
 });
 
 /** Preços da lista de produtos como números. */
